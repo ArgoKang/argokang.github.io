@@ -91,6 +91,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		scroll-behavior: smooth;
 	}
 
 	*, *:before, *:after {
@@ -98,7 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #0a0e27;
+		padding-top: 5em;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -115,7 +117,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(255, 255, 255, 0.65);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -151,7 +153,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.4);
 		color: inherit;
 		text-decoration: none;
 	}
@@ -197,10 +199,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #9D4EDD, #4ECDC4, #FFB84D);
+				background-image: -webkit-linear-gradient(to right, #9D4EDD, #4ECDC4, #FFB84D);
+				background-image: -ms-linear-gradient(to right, #9D4EDD, #4ECDC4, #FFB84D);
+				background-image: linear-gradient(to right, #9D4EDD, #4ECDC4, #FFB84D);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1915,7 +1917,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #0a0e27 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2356,7 +2358,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: #0a0e27;
 		}
 
 		select:focus::-ms-value {
@@ -2399,7 +2401,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: rgba(255, 255, 255, 0.55);
+			color: rgba(255, 255, 255, 0.65);
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2444,7 +2446,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #FFB84D;
 			content: '\f00c';
 		}
 
@@ -2525,7 +2527,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #0a0e27;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2536,27 +2538,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #9D4EDD;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #7B2CBF;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #4ECDC4;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #2E9E96;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #FFB84D;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #FF9500;
 				}
 
 /* Image */
@@ -3236,31 +3238,102 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #0d0a1a;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background: linear-gradient(180deg, 
+				#9D4EDD 0%, 
+				#8A42D1 10%, 
+				#7B2CBF 20%, 
+				#6B3DB8 30%, 
+				#5A189A 40%, 
+				#4A7A9D 50%, 
+				#4ECDC4 60%, 
+				#3DB5AD 70%, 
+				#2E9E96 80%, 
+				#1E6B66 90%, 
+				#FFB84D 100%);
+			background-size: 100% 500%;
+			background-position: 0% 0%;
+			transition: background-position 0.3s ease-out;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background: linear-gradient(180deg, 
+				#7B2CBF 0%, 
+				#6B3DB8 15%, 
+				#5A189A 30%, 
+				#4A7A9D 45%, 
+				#4ECDC4 60%, 
+				#3DB5AD 75%, 
+				#2E9E96 90%, 
+				#FFB84D 100%);
+			background-size: 100% 500%;
+			background-position: 0% 0%;
+			transition: background-position 0.3s ease-out;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background: linear-gradient(180deg, 
+				#4ECDC4 0%, 
+				#3DB5AD 10%, 
+				#2E9E96 20%, 
+				#1E6B66 30%, 
+				#2D7A66 40%, 
+				#FFB84D 50%, 
+				#FF9500 60%, 
+				#E67E00 70%, 
+				#D66D00 80%, 
+				#9D4EDD 90%, 
+				#7B2CBF 100%);
+			background-size: 100% 500%;
+			background-position: 0% 0%;
+			transition: background-position 0.3s ease-out;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background: linear-gradient(180deg, 
+				#2E9E96 0%, 
+				#1E6B66 20%, 
+				#2D7A66 40%, 
+				#FFB84D 60%, 
+				#FF9500 80%, 
+				#9D4EDD 100%);
+			background-size: 100% 500%;
+			background-position: 0% 0%;
+			transition: background-position 0.3s ease-out;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background: linear-gradient(180deg, 
+				#FFB84D 0%, 
+				#FF9500 10%, 
+				#E67E00 20%, 
+				#D66D00 30%, 
+				#C55C00 40%, 
+				#9D4EDD 50%, 
+				#8A42D1 60%, 
+				#7B2CBF 70%, 
+				#6B3DB8 80%, 
+				#5A189A 90%, 
+				#4ECDC4 100%);
+			background-size: 100% 500%;
+			background-position: 0% 0%;
+			transition: background-position 0.3s ease-out;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background: linear-gradient(180deg, 
+				#FF9500 0%, 
+				#E67E00 20%, 
+				#9D4EDD 40%, 
+				#7B2CBF 60%, 
+				#5A189A 80%, 
+				#4ECDC4 100%);
+			background-size: 100% 500%;
+			background-position: 0% 0%;
+			transition: background-position 0.3s ease-out;
 		}
 
 		.wrapper.fullscreen {
@@ -3370,9 +3443,15 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background: linear-gradient(135deg, #9D4EDD 0%, #7B2CBF 50%, #5A189A 100%);
 		cursor: default;
 		padding: 1.75em 2em;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 10001;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 	}
 
 		#header > .title {
@@ -3409,20 +3488,51 @@ input, select, textarea {
 
 					#header > nav > ul > li a {
 						border: 0;
-						color: rgba(255, 255, 255, 0.35);
+						color: rgba(255, 255, 255, 0.4);
 						display: inline-block;
 						font-size: 0.6em;
 						font-weight: bold;
 						letter-spacing: 0.25em;
 						text-transform: uppercase;
+						position: relative;
+						padding-bottom: 0.5em;
+						-moz-transition: color 0.2s ease;
+						-webkit-transition: color 0.2s ease;
+						-ms-transition: color 0.2s ease;
+						transition: color 0.2s ease;
 					}
 
+						#header > nav > ul > li a::after {
+							content: '';
+							position: absolute;
+							bottom: 0;
+							left: 0;
+							width: 0;
+							height: 3px;
+							background: linear-gradient(90deg, #9D4EDD 0%, #4ECDC4 50%, #FFB84D 100%);
+							-moz-transition: width 0.3s ease;
+							-webkit-transition: width 0.3s ease;
+							-ms-transition: width 0.3s ease;
+							transition: width 0.3s ease;
+							border-radius: 2px;
+						}
+
 						#header > nav > ul > li a:hover {
-							color: rgba(255, 255, 255, 0.55);
+							color: #ffffff;
+						}
+
+						#header > nav > ul > li a:hover::after {
+							width: 100%;
 						}
 
 						#header > nav > ul > li a.active {
 							color: #ffffff;
+						}
+
+						#header > nav > ul > li a.active::after {
+							width: 100%;
+							background: linear-gradient(90deg, #9D4EDD 0%, #4ECDC4 50%, #FFB84D 100%);
+							box-shadow: 0 0 10px rgba(157, 78, 221, 0.5), 0 0 20px rgba(78, 205, 196, 0.3);
 						}
 
 		@media screen and (max-width: 736px) {
@@ -3439,6 +3549,10 @@ input, select, textarea {
 				display: block;
 				padding: 0 2em;
 				text-align: left;
+			}
+
+			body {
+				padding-top: 6em;
 			}
 
 				#header .title {
@@ -3524,7 +3638,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #0a0e27;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3765,10 +3879,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #9D4EDD, #4ECDC4, #FFB84D);
+				background-image: -webkit-linear-gradient(to right, #9D4EDD, #4ECDC4, #FFB84D);
+				background-image: -ms-linear-gradient(to right, #9D4EDD, #4ECDC4, #FFB84D);
+				background-image: linear-gradient(to right, #9D4EDD, #4ECDC4, #FFB84D);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3777,7 +3891,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgba(255, 255, 255, 0.65);
 			}
 
 			#sidebar nav a.active {
@@ -3857,7 +3971,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #FFB84D;
 						}
 
 		}
