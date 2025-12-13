@@ -3260,6 +3260,16 @@ input, select, textarea {
 			background: #000000;
 		}
 
+		/* Intro section with background image */
+		#intro {
+			background-image: url("../../images/backgrounds/Main_Background.png") !important;
+			background-position: center 22% !important;
+			background-repeat: no-repeat !important;
+			background-size: cover !important;
+			background-attachment: fixed !important;
+			background-color: transparent !important;
+		}
+
 		/* Contact: 보라 → 청록 (단순화) */
 		.wrapper.style1-alt {
 			background: linear-gradient(180deg, 
@@ -3401,7 +3411,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background: linear-gradient(135deg, #9D4EDD 0%, #7B2CBF 50%, #5A189A 100%);
+		background: linear-gradient(135deg, #151520 0%, #1a1a2e 30%, #151520 60%, #1a1a2e 100%);
 		cursor: default;
 		padding: 1.75em 2em;
 		position: fixed;
@@ -3464,14 +3474,15 @@ input, select, textarea {
 							content: '';
 							position: absolute;
 							bottom: 0;
-							left: 0;
+							left: 50%;
+							transform: translateX(-50%);
 							width: 0;
 							height: 3px;
 							background: linear-gradient(90deg, #9D4EDD 0%, #4ECDC4 50%, #FFE066 100%);
-							-moz-transition: width 0.3s ease;
-							-webkit-transition: width 0.3s ease;
-							-ms-transition: width 0.3s ease;
-							transition: width 0.3s ease;
+							-moz-transition: none;
+							-webkit-transition: none;
+							-ms-transition: none;
+							transition: none;
 							border-radius: 2px;
 						}
 
@@ -3479,18 +3490,18 @@ input, select, textarea {
 							color: #ffffff;
 						}
 
-						#header > nav > ul > li a:hover::after {
-							width: 100%;
-						}
-
 						#header > nav > ul > li a.active {
 							color: #ffffff;
 						}
 
 						#header > nav > ul > li a.active::after {
-							width: 100%;
+							width: 120%;
 							background: linear-gradient(90deg, #9D4EDD 0%, #4ECDC4 50%, #FFE066 100%);
 							box-shadow: 0 0 10px rgba(157, 78, 221, 0.5), 0 0 20px rgba(78, 205, 196, 0.3);
+							-moz-transition: none;
+							-webkit-transition: none;
+							-ms-transition: none;
+							transition: none;
 						}
 
 		@media screen and (max-width: 736px) {
@@ -3992,14 +4003,6 @@ input, select, textarea {
 		}
 
 /* Intro */
-
-	#intro {
-		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-	}
 
 		#intro p {
 			font-size: 1.25em;
