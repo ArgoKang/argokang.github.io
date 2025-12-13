@@ -38,12 +38,9 @@
 
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>V-High</h1>
-							<p>Make V, raise High</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Check It Out</a></li>
-							</ul>
+						<div class="inner" style="text-align: center;">
+							<h1 class="prism-gradient">V-High</h1>
+							<p style="font-size: 1.5em; margin-top: 0; color: #ffffff;">Make V, Raise High!</p>
 						</div>
 					</section>
 
@@ -134,7 +131,7 @@
 					</section>
 
 				<!-- Career -->
-					<section id="career" class="wrapper style2 fade-up">
+					<section id="career" class="wrapper style2-alt fade-up">
 						<div class="inner">
 							<h2>Career</h2>
 							<p>Join the team. Make games. Have fun. We're looking for passionate creators.</p>
@@ -223,9 +220,9 @@
 						<li>&copy; V-High. All rights reserved.</li>
 						<li><a href="pages/tos.html">Term of Service</a></li>
 						<li><a href="pages/privacy.html">Privacy Policy</a></li>
-						<li><a href="pages/account-deletion.html">Account Deletion Request</a></li>
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						<li>Template: <a href="http://html5up.net">Hyperspace</a> by <a href="http://html5up.net">HTML5 UP</a> | Free for personal and commercial use under the <a href="http://html5up.net/license">CCA 3.0 license</a></li>
+						<li class="last-main-item"><a href="pages/account-deletion.html">Account Deletion Request</a></li>
+						<li class="credits">Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li class="credits">Template: <a href="http://html5up.net">Hyperspace</a> by <a href="http://html5up.net">HTML5 UP</a> </a></li>
 					</ul>
 				</div>
 			</footer>
@@ -239,30 +236,9 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script>
-				// Smooth gradient transition on scroll
+				// Update active menu item based on scroll position
 				$(window).on('scroll', function() {
 					var scrollTop = $(window).scrollTop();
-					var windowHeight = $(window).height();
-					var documentHeight = $(document).height();
-					var scrollPercent = scrollTop / (documentHeight - windowHeight);
-					
-					// Calculate gradient position based on scroll
-					var gradientPosition = scrollPercent * 200; // Adjust multiplier for speed
-					
-					// Apply to all wrapper sections
-					$('.wrapper.style1, .wrapper.style1-alt').css({
-						'background-position': '0% ' + gradientPosition + '%'
-					});
-					
-					$('.wrapper.style2, .wrapper.style2-alt').css({
-						'background-position': '0% ' + gradientPosition + '%'
-					});
-					
-					$('.wrapper.style3, .wrapper.style3-alt').css({
-						'background-position': '0% ' + gradientPosition + '%'
-					});
-
-					// Update active menu item based on scroll position
 					var sections = ['#intro', '#one', '#two', '#career', '#three'];
 					var headerHeight = $('#header').outerHeight();
 					var current = '';
