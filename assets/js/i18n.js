@@ -117,6 +117,8 @@
 
 			'footer.tos': 'Terms of Service',
 			'footer.privacy': 'Privacy Policy',
+			'footer.probability': 'Archmage Lugh Probability Info',
+			'meta.title.probability': 'Archmage Lugh Probability Info - V-High',
 			'footer.deletion': 'Account Deletion Request'
 		},
 
@@ -213,6 +215,8 @@
 
 			'footer.tos': '이용약관',
 			'footer.privacy': '개인정보처리방침',
+			'footer.probability': '대마법사 루 확률 정보',
+			'meta.title.probability': '대마법사 루 확률 정보 - V-High',
 			'footer.deletion': '계정 삭제 요청'
 		},
 
@@ -309,6 +313,8 @@
 
 			'footer.tos': 'Termos de Serviço',
 			'footer.privacy': 'Política de Privacidade',
+			'footer.probability': 'Probabilidades de Archmage Lugh',
+			'meta.title.probability': 'Probabilidades de Archmage Lugh - V-High',
 			'footer.deletion': 'Solicitação de Exclusão de Conta'
 		}
 

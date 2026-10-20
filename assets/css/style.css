@@ -1147,6 +1147,14 @@ html[lang="ko"] .legal h1 { font-family: var(--font-body); font-weight: 900; }
 .legal .box > :first-child { margin-top: 0; }
 .legal .box > :last-child { margin-bottom: 0; }
 
+.legal .table-wrap { overflow-x: auto; margin: 16px 0 20px; border: 1px solid var(--line); border-radius: 16px; }
+.legal table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.legal th, .legal td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.legal td { color: var(--muted); }
+.legal th { color: var(--ink); background: var(--bg-2); font-weight: 800; }
+.legal tbody tr:last-child td { border-bottom: 0; }
+.legal td:not(:first-child) { font-variant-numeric: tabular-nums; }
+
 /* ---------- Scroll reveal ---------- */
 
 .reveal {
