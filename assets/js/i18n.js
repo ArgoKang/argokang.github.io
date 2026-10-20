@@ -36,7 +36,6 @@
 			'nav.home': 'Home',
 			'nav.games': 'Games',
 			'nav.about': 'About',
-			'nav.career': 'Career',
 			'nav.contact': 'Contact',
 			'nav.tos': 'Terms',
 			'nav.privacy': 'Privacy',
@@ -44,7 +43,14 @@
 
 			'games.title': 'Games',
 			'games.iconAlt': 'Archmage Lugh app icon',
-			'games.learnMore': 'Learn More',
+			'games.comingSoon': 'Coming Soon',
+			'games.platforms': 'Android &middot; iOS',
+			'games.nowBuilding': 'Now building',
+
+			'hero.scroll': 'Scroll',
+			'hero.chip': 'Archmage Lugh &mdash; Coming Soon',
+			'nav.menu': 'Menu',
+			'footer.rights': 'All rights reserved.',
 			'games.lugh1.title': 'Archmage Lugh',
 			'games.lugh1.text': 'The legendary archmage who absorbs it all.',
 			'games.lugh2.title': 'Beat it. Absorb it. Command it.',
@@ -66,8 +72,24 @@
 			'about.f5.text': 'A collection that keeps growing. Toys for grown-ups, made to come back to every day.',
 			'about.f6.title': 'Made for your phone.',
 			'about.f6.text': 'Quick sessions. Light download. Smooth play. All you need is a spare minute.',
+			// About cards: monster name and the line it says when absorbed (from the game's string tables).
+			'about.f1.monster': 'Knight Commander',
+			'about.f1.quote': 'Your path is mine to clear.',
+			'about.f2.monster': 'King Slime',
+			'about.f2.quote': 'Glorp glorp~!',
+			'about.f3.monster': 'Gorilla Bot',
+			'about.f3.quote': 'THOOM! THOOM! THOOM!',
+			'about.f4.monster': 'Hammer Monarch',
+			'about.f4.quote': 'I\'m the god of smiths. What weapon do you need?',
+			'about.f5.monster': 'Frost Monarch',
+			'about.f5.quote': 'Climb on my back. I\'ll take you anywhere.',
+			'about.f6.monster': 'Beat Buster',
+			'about.f6.quote': 'Untz, untz, boom-boom!',
 			'about.cta': 'Say Hello',
 
+			// Career — section is hidden for now (index.html), strings kept for later.
+			'nav.career': 'Career',
+			'contact.info.careers': 'Careers',
 			'career.title': 'Career',
 			'career.text': 'Great games are made by people who can\'t stop playing them. If that\'s you, let\'s talk.',
 			'career.f1.title': 'Engineers',
@@ -79,9 +101,11 @@
 			'career.f4.title': 'Curious Minds',
 			'career.f4.text': 'Question everything. Prototype fast. Keep what\'s fun.',
 			'career.cta': 'Send Us Your Work',
+			'career.stamp': 'Join the legion',
+
 
 			'contact.title': 'Contact',
-			'contact.text': 'Questions, ideas, or just want to say hi? We read every message.',
+			'contact.text': 'Questions, ideas, or just want to say hi?',
 			'contact.name': 'Name',
 			'contact.email': 'Email',
 			'contact.message': 'Message',
@@ -90,7 +114,6 @@
 			'contact.err.required': 'Please fill in your name, email and message.',
 			'contact.err.email': 'Please check your email address.',
 			'contact.info.email': 'Email',
-			'contact.info.careers': 'Careers',
 
 			'footer.tos': 'Terms of Service',
 			'footer.privacy': 'Privacy Policy',
@@ -109,7 +132,6 @@
 			'nav.home': '홈',
 			'nav.games': '게임',
 			'nav.about': '소개',
-			'nav.career': '채용',
 			'nav.contact': '문의',
 			'nav.tos': '이용약관',
 			'nav.privacy': '개인정보',
@@ -117,7 +139,14 @@
 
 			'games.title': '게임',
 			'games.iconAlt': 'Archmage Lugh 앱 아이콘',
-			'games.learnMore': '자세히 보기',
+			'games.comingSoon': '출시 예정',
+			'games.platforms': 'Android &middot; iOS',
+			'games.nowBuilding': '제작 중',
+
+			'hero.scroll': '스크롤',
+			'hero.chip': '대마법사 루 &mdash; 출시 예정',
+			'nav.menu': '메뉴',
+			'footer.rights': 'All rights reserved.',
 			'games.lugh1.title': '대마법사 루',
 			'games.lugh1.text': '모든 것을 흡수하는 전설의 대마법사.',
 			'games.lugh2.title': '쓰러뜨리고. 흡수하고. 거느린다.',
@@ -139,8 +168,24 @@
 			'about.f5.text': '끝없이 늘어나는 컬렉션. 매일 돌아오고 싶은, 어른들을 위한 장난감.',
 			'about.f6.title': '손안에서 완성되는 게임.',
 			'about.f6.text': '짧은 한 판, 가벼운 용량, 부드러운 플레이. 잠깐의 틈이면 충분합니다.',
+			// About cards: monster name and the line it says when absorbed (from the game's string tables).
+			'about.f1.monster': '기사단장',
+			'about.f1.quote': '앞길은 제가 열겠습니다.',
+			'about.f2.monster': '킹 슬라임',
+			'about.f2.quote': '꿀렁꿀렁~!',
+			'about.f3.monster': '고릴라 봇',
+			'about.f3.quote': '쿵! 쿵! 쿵!',
+			'about.f4.monster': '망치 군주',
+			'about.f4.quote': '나는 대장장이의 신. 어떤 무기가 필요하지?',
+			'about.f5.monster': '서리 군주',
+			'about.f5.quote': '내 등에 올라라. 어디든 데려다주마.',
+			'about.f6.monster': '비트버스터',
+			'about.f6.quote': '둠칫, 둠칫, 둥둥!',
 			'about.cta': '연락하기',
 
+			// Career — section is hidden for now (index.html), strings kept for later.
+			'nav.career': '채용',
+			'contact.info.careers': '채용',
 			'career.title': '채용',
 			'career.text': '좋은 게임은, 그 게임을 멈추지 못하는 사람들이 만듭니다. 당신이 그렇다면, 이야기 나눠요.',
 			'career.f1.title': '엔지니어',
@@ -152,9 +197,11 @@
 			'career.f4.title': '호기심 많은 사람',
 			'career.f4.text': '모든 걸 의심하고, 빠르게 만들어 보고, 재밌는 것만 남깁니다.',
 			'career.cta': '포트폴리오 보내기',
+			'career.stamp': '군단원 모집 중',
+
 
 			'contact.title': '문의',
-			'contact.text': '궁금한 점, 제안, 그냥 인사라도 좋아요. 모든 메시지를 직접 읽습니다.',
+			'contact.text': '궁금한 점, 제안, 그냥 인사라도 좋아요.',
 			'contact.name': '이름',
 			'contact.email': '이메일',
 			'contact.message': '메시지',
@@ -163,7 +210,6 @@
 			'contact.err.required': '이름, 이메일, 메시지를 모두 입력해 주세요.',
 			'contact.err.email': '이메일 주소를 확인해 주세요.',
 			'contact.info.email': '이메일',
-			'contact.info.careers': '채용',
 
 			'footer.tos': '이용약관',
 			'footer.privacy': '개인정보처리방침',
@@ -182,7 +228,6 @@
 			'nav.home': 'Início',
 			'nav.games': 'Jogos',
 			'nav.about': 'Sobre',
-			'nav.career': 'Carreiras',
 			'nav.contact': 'Contato',
 			'nav.tos': 'Termos',
 			'nav.privacy': 'Privacidade',
@@ -190,7 +235,14 @@
 
 			'games.title': 'Jogos',
 			'games.iconAlt': 'Ícone do app Archmage Lugh',
-			'games.learnMore': 'Saiba mais',
+			'games.comingSoon': 'Em breve',
+			'games.platforms': 'Android &middot; iOS',
+			'games.nowBuilding': 'Em produção',
+
+			'hero.scroll': 'Role',
+			'hero.chip': 'Archmage Lugh &mdash; Em breve',
+			'nav.menu': 'Menu',
+			'footer.rights': 'Todos os direitos reservados.',
 			'games.lugh1.title': 'Archmage Lugh',
 			'games.lugh1.text': 'O lendário arquimago que absorve tudo.',
 			'games.lugh2.title': 'Derrote. Absorva. Comande.',
@@ -212,8 +264,24 @@
 			'about.f5.text': 'Uma coleção que não para de crescer. Brinquedos para adultos, feitos para voltar todo dia.',
 			'about.f6.title': 'Feito para o seu celular.',
 			'about.f6.text': 'Partidas rápidas. Download leve. Jogo fluido. Basta um minutinho livre.',
+			// About cards: monster name and the line it says when absorbed (from the game's string tables).
+			'about.f1.monster': 'Cavaleiro-Comandante',
+			'about.f1.quote': 'Seu caminho, eu abro.',
+			'about.f2.monster': 'Rei Slime',
+			'about.f2.quote': 'Blup blup~!',
+			'about.f3.monster': 'Robô Gorila',
+			'about.f3.quote': 'BAM! BAM! BAM!',
+			'about.f4.monster': 'Monarca do Martelo',
+			'about.f4.quote': 'Sou o deus dos ferreiros. De que arma precisa?',
+			'about.f5.monster': 'Monarca do Gelo',
+			'about.f5.quote': 'Suba no meu dorso. Levo você aonde quiser.',
+			'about.f6.monster': 'Beat Buster',
+			'about.f6.quote': 'Tum-tá, tum-tá, tum-tum!',
 			'about.cta': 'Diga Oi',
 
+			// Career — section is hidden for now (index.html), strings kept for later.
+			'nav.career': 'Carreiras',
+			'contact.info.careers': 'Carreiras',
 			'career.title': 'Carreiras',
 			'career.text': 'Grandes jogos são feitos por quem não consegue parar de jogá-los. Se é você, vamos conversar.',
 			'career.f1.title': 'Engenharia',
@@ -225,9 +293,11 @@
 			'career.f4.title': 'Mentes Curiosas',
 			'career.f4.text': 'Questione tudo. Prototipe rápido. Fique com o que é divertido.',
 			'career.cta': 'Envie seu Portfólio',
+			'career.stamp': 'Junte-se à legião',
+
 
 			'contact.title': 'Contato',
-			'contact.text': 'Dúvidas, ideias ou só quer dizer oi? Lemos todas as mensagens.',
+			'contact.text': 'Dúvidas, ideias ou só quer dizer oi?',
 			'contact.name': 'Nome',
 			'contact.email': 'E-mail',
 			'contact.message': 'Mensagem',
@@ -236,7 +306,6 @@
 			'contact.err.required': 'Preencha seu nome, e-mail e mensagem.',
 			'contact.err.email': 'Verifique seu endereço de e-mail.',
 			'contact.info.email': 'E-mail',
-			'contact.info.careers': 'Carreiras',
 
 			'footer.tos': 'Termos de Serviço',
 			'footer.privacy': 'Política de Privacidade',
@@ -329,16 +398,13 @@
 	}
 
 	function buildSelector() {
-		var header = document.getElementById('header');
-		if (!header)
+		var slot = document.getElementById('lang-slot');
+		if (!slot)
 			return;
 
-		var wrap = document.createElement('div');
+		var wrap = document.createElement('label');
 		wrap.className = 'lang-switch';
-
-		var icon = document.createElement('span');
-		icon.className = 'icon solid fa-globe';
-		icon.setAttribute('aria-hidden', 'true');
+		wrap.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9s1.3-6.4 3.8-9z"/></svg>';
 
 		var select = document.createElement('select');
 		select.id = 'lang-select';
@@ -356,9 +422,8 @@
 			apply(select.value);
 		});
 
-		wrap.appendChild(icon);
 		wrap.appendChild(select);
-		header.appendChild(wrap);
+		slot.appendChild(wrap);
 	}
 
 	window.I18N = {
